@@ -1,20 +1,24 @@
 body {
   background-color: #f5f8fa;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   border-top-style: solid;
   border-top-width: 0.5em;
   border-top-color: #2f92ca;
 }
 
-.card{
+.card {
   margin-top: 1em;
   margin-bottom: 1em;
-  padding:0em 3em 0em 3em;
+  padding: 0em 3em 0em 3em;
 }
 
-@media(max-width:34em){
-  .card{
-    padding:0em 0em 0em 0em;
+@media (max-width: 34em) {
+  .card {
+    padding: 0em 0em 0em 0em;
+  }
+
+  .card-body {
+    padding: 0 1.25rem 0 1.25rem;
   }
 
   dl,
@@ -27,7 +31,6 @@ body {
 #resume-body {
   padding-top: 1em;
 }
-
 
 /* icon size */
 
@@ -47,26 +50,24 @@ body {
   font-size: 48px;
 }
 
-
 /* icon size end */
-li{
-  list-style-type:none;
+li {
+  list-style-type: none;
   color: rgb(51, 51, 51);
 }
 
-section{
-  margin:3em 0 3em 0;
+section {
+  margin: 3em 0 3em 0;
 }
 
-.text-muted{
-  margin-bottom:0.6em;
+.text-muted {
+  margin-bottom: 0.6em;
 }
 
-.left-line{
-  border-left-style:solid;
-  border-left-color:rgb(151,151,151);
-  border-left-width:0.3em;
+.left-line {
+  border-left-style: solid;
+  border-left-color: rgb(151, 151, 151);
+  border-left-width: 0.3em;
   padding-left: 1em;
-  margin-bottom:2em;
+  margin-bottom: 2em;
 }
-
