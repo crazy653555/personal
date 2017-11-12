@@ -1,3 +1,9 @@
-<p>
-  education works!
-</p>
+<section>
+  <h2 class="text-muted">學歷</h2>
+  <ul *ngFor="let item of data">
+    <li class="h5 font-weight-bold">{{item.university}} ({{item['attending-date']}} - {{item['graduation-date']}})</li>
+    <li>學歷 : {{item.department}}</li>
+    <li>科系 : {{item['major-courses']}}</li>
+    <li *ngIf="item.paper">論文 : {{item.paper}}</li>
+  </ul>
+</section>

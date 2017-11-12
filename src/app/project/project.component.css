@@ -1,0 +1,7 @@
+.left-line{
+  border-left-style:solid;
+  border-left-color:rgb(151,151,151);
+  border-left-width:0.3em;
+  padding-left: 1em;
+  margin-bottom:2em;
+}
