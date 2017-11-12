@@ -44,7 +44,7 @@ export class SkillComponent implements OnInit {
       ]
     },   {
       id:6,
-      title:'資料庫',
+      title:'證照',
       skills:[
         'SCJP','丙級電腦硬體裝修技術士','丙級網頁設計技術士','堆高機操作技術士'
       ]

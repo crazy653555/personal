@@ -17,7 +17,7 @@ export class ExperienceComponent implements OnInit {
       "end": "在職"
     }, {
       "organization-name": "博聯網路公司",
-      "location":" 桃園市中壢區",
+      "location":" 桃園市桃園區",
       "position": "工程師",
       "description-of-responsibility": "負責軟硬體維護組裝、網路維護、採購、行政業務",
       "start": "2010/10",
