@@ -1,6 +1,20 @@
-.top-line{
+.line{
   border-top-style: solid;
   border-top-color:rgb(151,151,151);
-  border-top-width: 0.2em;
+  border-top-width: 0.3em;
   padding-top:0.7em;
+}
+
+@media (max-width: 34em) {
+  .line{
+    border-top-style: none;
+    border-left-style: solid;
+    border-left-color:rgb(151,151,151);
+    border-left-width: 0.3em;
+    padding-left:0.7em;
+  }
+}
+
+span{
+  margin-right: 0.5rem;
 }
