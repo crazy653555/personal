@@ -1,7 +1,9 @@
 <h2 class="text-muted">經歷</h2>
 <ul *ngFor="let item of data">
-  <li class="h5 font-weight-bold">{{item['organization-name']}} ({{item.start}} - {{item.end}})</li>
-  <li>職務類別 : {{item.position}}</li>
-  <li>工作地點 : {{item.location}}</li>
-  <li>工作內容 : {{item['description-of-responsibility']}}</li>
+  <div class="left-line">
+    <li class="h5 font-weight-bold">{{item['organization-name']}} ({{item.start}} - {{item.end}})</li>
+    <li>職務類別 : {{item.position}}</li>
+    <li>工作地點 : {{item.location}}</li>
+    <li>工作內容 : {{item['description-of-responsibility']}}</li>
+  </div>
 </ul>
