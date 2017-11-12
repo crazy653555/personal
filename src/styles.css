@@ -1,11 +1,28 @@
 body {
   background-color: #f5f8fa;
   font-family: 'Noto Sans TC', sans-serif;
-  border-style:solid;
+  border-top-style: solid;
   border-top-width: 0.5em;
   border-top-color: #2f92ca;
 }
 
+.card{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding:0em 3em 0em 3em;
+}
+
+@media(max-width:34em){
+  .card{
+    padding:0em 0em 0em 0em;
+  }
+
+  dl,
+  ol,
+  ul {
+    padding-left: 0rem;
+  }
+}
 
 #resume-body {
   padding-top: 1em;

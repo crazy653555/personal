@@ -1,0 +1,25 @@
+/* 圖示 */
+.icon {
+  position: absolute;
+}
+
+/* 圖示後的文字 */
+span {
+  margin-left: 1.7em;
+}
+
+/* 間隔 */
+li {
+  margin-bottom: 1em;
+}
+
+/* 手機螢幕 */
+@media (max-width: 34em) {
+  .rounded-circle {
+    border-radius: 0%;
+  }
+
+  h2{
+    margin-top: 1rem;
+  }
+}
