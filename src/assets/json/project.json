@@ -1,0 +1,83 @@
+[
+  {
+    "id":1,
+    "project":"會計系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供會計室作帳使用"
+  },
+  {
+    "id":2,
+    "project":"中程暨年度計畫系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供校內編列計畫及預算"
+  },
+  {
+    "id":3,
+    "project":"出納系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供校內收出入帳"
+  },
+  {
+    "id":4,
+    "project":"財管系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供校內管理產財"
+  },
+  {
+    "id":5,
+    "project":"卓越中心網站",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供科室公告活動之網站"
+  },
+  {
+    "id":6,
+    "project":"教學助理系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供校內學生填寫助理工作紀錄的平台"
+  },
+  {
+    "id":7,
+    "project":"校外競賽系統",
+    "technology":[
+      "WebForms","Bootstrap3"
+    ],
+    "content":"提供校內老師填寫校外比賽申請及核銷資訊，並且有電子簽核流程"
+  },
+  {
+    "id":8,
+    "project":"基於移動平台的鈔票辨識盲人輔助 APP",
+    "technology":[
+      "Android"
+    ],
+    "content":"提供視障人士用手機做鈔票辨識，以 Android、OpenCV、Jni 為研究架構。大多手持裝置的影像辨識都是將影像上傳至 Server 運算後回傳辨識結果，此方法需受限於網路環境，因此提出以本機做影像解析運算來完成鈔票面額辨識，且控制運算時間及友善的操作流程"
+  },
+  {
+    "id":9,
+    "project":"手機定位追蹤 APP",
+    "technology":[
+      "Android"
+    ],
+    "content":"追蹤者 APP 執行後會自動在手機背後運作，執行期間會自動傳送所在位置GPS座標至 Server 端資料庫中，即便是手機重開機也會自動啟動。而觀察者 APP 可將 Server 資料庫資料呈現於手機地圖畫面以利觀察追者者位置，除了可查詢歷史座標外也具備歷史紀錄導覽功能，且當追蹤者離開預設縣市範圍將會發出通知告知觀察者"
+  },
+  {
+    "id":10,
+    "project":"99撲克牌 APP",
+    "technology":[
+      "Android"
+    ],
+    "content":"四支手機可一起玩 99 樸克牌遊戲，而 Server 端為 java 撰寫，負責控制遊戲的出牌流程"
+  }
+
+]
