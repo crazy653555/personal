@@ -5,7 +5,7 @@
     <ul class="col-md-4" *ngFor="let item of data">
         <div class="line">
       <li class="h5">{{item.title}}</li>
-      <li><span *ngFor="let skill of item.skills">{{skill}}</span></li>
+      <li><span class="badge badge-pill badge-light" *ngFor="let skill of item.skills">{{skill}}</span></li>
       </div>
     </ul>
   </div>

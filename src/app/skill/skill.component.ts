@@ -8,9 +8,9 @@ import { DataService } from '../data.service';
 })
 export class SkillComponent implements OnInit {
 
-  data ;
+  data;
 
-  constructor(private dataSer:DataService) { }
+  constructor(private dataSer: DataService) { }
 
   ngOnInit() {
     this.dataSer.getSkill().subscribe(req => this.data = req);

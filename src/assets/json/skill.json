@@ -10,7 +10,7 @@
     "id":2,
     "title":"框架",
     "skills":[
-      "ASP.NET","WebFrome","ASP.NET MVC,","Angular","Entity Framework","Bootstrap","Android"
+      "ASP.NET","WebFrom","ASP.NET MVC","Angular","Entity Framework","Bootstrap","Android"
     ]
   },
   {
@@ -24,7 +24,7 @@
     "id":4,
     "title":"版控",
     "skills":[
-      "git","github","svn"
+      "git","svn"
     ]
   },
   {

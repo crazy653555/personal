@@ -3,57 +3,57 @@
     "id":1,
     "project":"會計系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供會計室作帳使用"
+    "content":"財務作帳"
   },
   {
     "id":2,
     "project":"中程暨年度計畫系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供校內編列計畫及預算"
+    "content":"編列計畫及預算"
   },
   {
     "id":3,
     "project":"出納系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供校內收出入帳"
+    "content":"收入帳操作"
   },
   {
     "id":4,
     "project":"財管系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供校內管理產財"
+    "content":"財務管理,採購後編列財產編號,折舊,報廢"
   },
   {
     "id":5,
     "project":"卓越中心網站",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供科室公告活動之網站"
+    "content":"辦公室網站"
   },
   {
     "id":6,
     "project":"教學助理系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供校內學生填寫助理工作紀錄的平台"
+    "content":"學生填寫助理工作紀錄的平台"
   },
   {
     "id":7,
     "project":"校外競賽系統",
     "technology":[
-      "WebForms","Bootstrap3"
+      "WebForm","Bootstrap"
     ],
-    "content":"提供校內老師填寫校外比賽申請及核銷資訊，並且有電子簽核流程"
+    "content":"提供校內老師填寫校外比賽申請及核銷資訊，電子簽核流程"
   },
   {
     "id":8,
