@@ -21,10 +21,7 @@
       </ul>
     </div>
   </div>
-  <pre>
-    {{show | async |json}}
-  </pre>
-  <pre>
-    {{show.bd |async |json}}
-  </pre>
+
+  <prettyjson [obj]="show | async"></prettyjson>
+
 </section>

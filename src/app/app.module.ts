@@ -7,6 +7,8 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
 import {AngularFirestoreModule} from 'angularfire2/firestore';
 
+import {PrettyJsonModule} from 'angular2-prettyjson';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -32,7 +34,8 @@ import { environment } from '../environments/environment.prod';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFireDatabaseModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    PrettyJsonModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
