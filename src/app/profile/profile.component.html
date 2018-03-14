@@ -7,21 +7,21 @@
     <div class="col-md-9">
       <ul>
         <li>
-          <h2>{{data?.name}}</h2>
+          <h2>{{(data|async)?.name}}</h2>
         </li>
-        <li>{{data?.content}}</li>
+        <li>{{(data|async)?.content}}</li>
         <li>
           <i class="material-icons icon">email</i>
-          <span>{{data?.email}}</span>
+          <span>{{(data|async)?.email}}</span>
         </li>
         <li>
           <i class="material-icons icon">place</i>
-          <span>{{data?.location}}</span>
+          <span>{{(data|async)?.location}}</span>
         </li>
       </ul>
     </div>
   </div>
 
-  <prettyjson [obj]="show | async"></prettyjson>
+  <prettyjson [obj]="data | async"></prettyjson>
 
 </section>

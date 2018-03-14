@@ -4,6 +4,7 @@ import { DataService } from '../data.service';
 import { Profile } from 'selenium-webdriver/firefox';
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFirestoreCollection, AngularFirestore } from 'angularfire2/firestore';
 
 @Component({
   selector: 'app-profile',
@@ -12,13 +13,14 @@ import { AngularFireDatabase } from 'angularfire2/database';
 })
 export class ProfileComponent implements OnInit {
 
-  data;
-  show: any;
+  itemsCollection: any;
+  data: any;
 
-  constructor(private dataServ: DataService, private _db: AngularFireDatabase) { }
+  constructor(private dataServ: DataService, private afs: AngularFirestore) {
+    this.itemsCollection = this.afs.collection('EasonResume').doc('profile');
+    this.data = this.itemsCollection.valueChanges();
+  }
 
   ngOnInit() {
-    this.dataServ.getProfile().subscribe(req => this.data = req);
-    this.show = this._db.list('profile').snapshotChanges();
   }
 }

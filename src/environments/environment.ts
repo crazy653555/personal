@@ -10,7 +10,7 @@ export const environment = {
     authDomain: 'eason-resume.firebaseapp.com',
     databaseURL: 'https://eason-resume.firebaseio.com',
     projectId: 'eason-resume',
-    storageBucket: '',
+    storageBucket: 'eason-resume.appspot.com',
     messagingSenderId: '657553249195'
   }
 };
