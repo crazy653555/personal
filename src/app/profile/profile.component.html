@@ -15,13 +15,15 @@
           <span>{{(data|async)?.email}}</span>
         </li>
         <li>
+          <i class="material-icons icon | date">account_circle</i>
+          <span>{{(data|async)?.bd | date}}</span>
+        </li>
+        <li>
           <i class="material-icons icon">place</i>
           <span>{{(data|async)?.location}}</span>
         </li>
       </ul>
     </div>
   </div>
-
-  <prettyjson [obj]="data | async"></prettyjson>
 
 </section>

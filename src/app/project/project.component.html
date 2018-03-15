@@ -1,6 +1,6 @@
 <section>
   <h2 class="text-muted">專案經驗</h2>
-  <ul *ngFor="let item of data">
+  <ul *ngFor="let item of (data | async)">
     <div class="left-line">
       <li class="h5 font-weight-bold">{{item.project}}</li>
       <li>框架 :

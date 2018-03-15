@@ -7,5 +7,6 @@ export const environment = {
     projectId: 'eason-resume',
     storageBucket: '',
     messagingSenderId: '657553249195'
+
   }
 };

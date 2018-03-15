@@ -1,19 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
+import { Component, OnInit } from "@angular/core";
+import { DataService } from "../data.service";
+import { Observable } from "rxjs/Observable";
 
 @Component({
-  selector: 'app-skill',
-  templateUrl: './skill.component.html',
-  styleUrls: ['./skill.component.css']
+  selector: "app-skill",
+  templateUrl: "./skill.component.html",
+  styleUrls: ["./skill.component.css"]
 })
 export class SkillComponent implements OnInit {
+  data: Observable<{}>;
 
-  data;
-
-  constructor(private dataSer: DataService) { }
+  constructor(private dataSer: DataService) {}
 
   ngOnInit() {
-    this.dataSer.getSkill().subscribe(req => this.data = req);
+    this.data = this.dataSer.getSkill();
   }
-
 }

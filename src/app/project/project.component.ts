@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-project',
@@ -8,12 +9,12 @@ import { DataService } from '../data.service';
 })
 export class ProjectComponent implements OnInit {
 
-  data;
+  data:Observable<{}>;
 
   constructor(private dataSer:DataService) { }
 
   ngOnInit() {
-    this.dataSer.getProject().subscribe(req => this.data = req);
+    this.data = this.dataSer.getProject();
   }
 
 }

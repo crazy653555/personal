@@ -8,12 +8,12 @@ import { DataService } from '../data.service';
 })
 export class ExperienceComponent implements OnInit {
 
-  data;
+  data:any;
 
   constructor(private dataSer:DataService) { }
 
   ngOnInit() {
-    this.dataSer.getExperience().subscribe(req => this.data = req);
+    this.data = this.dataSer.getExperience();
   }
 
 }

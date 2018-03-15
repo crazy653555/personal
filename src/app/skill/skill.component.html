@@ -2,11 +2,12 @@
   <h2 class="text-muted">技能</h2>
 
   <div class="row">
-    <ul class="col-md-4" *ngFor="let item of data">
+    <ul class="col-md-4" *ngFor="let item of (data|async)">
         <div class="line">
       <li class="h5">{{item.title}}</li>
-      <li><span class="badge badge-pill badge-light" *ngFor="let skill of item.skills">{{skill}}</span></li>
+      <li><span class="badge badge-pill badge-light" *ngFor="let skill of item.skill">{{skill}}</span></li>
       </div>
     </ul>
   </div>
 </section>
+

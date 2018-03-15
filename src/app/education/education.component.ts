@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { DataService } from '../data.service';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: "app-education",
@@ -7,11 +8,11 @@ import { DataService } from '../data.service';
   styleUrls: ["./education.component.css"]
 })
 export class EducationComponent implements OnInit {
-  data ;
+  data:Observable<{}> ;
 
   constructor(private dataSer :DataService) {}
 
   ngOnInit() {
-    this.dataSer.getEducation().subscribe(req => this.data = req);
+    this.data = this.dataSer.getEducation();
   }
 }

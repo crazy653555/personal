@@ -12,5 +12,6 @@ export const environment = {
     projectId: 'eason-resume',
     storageBucket: 'eason-resume.appspot.com',
     messagingSenderId: '657553249195'
+
   }
 };
