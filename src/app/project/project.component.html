@@ -3,10 +3,10 @@
   <ul *ngFor="let item of (data | async)">
     <div class="left-line">
       <li class="h5 font-weight-bold">{{item.project}}</li>
-      <li>框架 :
-        <span *ngFor="let tec of item.technology">{{tec}} </span>
+      <li>
+        <span class="badge badge-pill badge-light h2" *ngFor="let tec of item.technology">{{tec}} </span>
       </li>
-      <li>說明 : {{item.content}}</li>
+      <li>{{item.content}}</li>
     </div>
   </ul>
 </section>

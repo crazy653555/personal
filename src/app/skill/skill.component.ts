@@ -1,11 +1,11 @@
-import { Component, OnInit } from "@angular/core";
-import { DataService } from "../data.service";
-import { Observable } from "rxjs/Observable";
+import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
-  selector: "app-skill",
-  templateUrl: "./skill.component.html",
-  styleUrls: ["./skill.component.css"]
+  selector: 'app-skill',
+  templateUrl: './skill.component.html',
+  styleUrls: ['./skill.component.css']
 })
 export class SkillComponent implements OnInit {
   data: Observable<{}>;

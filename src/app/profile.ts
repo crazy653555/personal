@@ -3,4 +3,5 @@ export interface Profile {
   content: string;
   email: string;
   location: string;
+  db: string;
 }
